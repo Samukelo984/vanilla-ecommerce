@@ -199,3 +199,76 @@
   height: 6.2rem;
   color: var(--gray);
 }
+
+/* PRODUCT */
+.product {
+  height: 100vh;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  background-color: whitesmoke;
+}
+
+.product img {
+  width: 50%;
+}
+
+.product-details {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 40%;
+  padding: 3.2em;
+}
+
+.product-details h1 {
+  font-size: 4.6rem;
+  font-weight: 800;
+}
+
+.product-details p {
+  font-size: 1.4rem;
+  color: var(--gray);
+}
+
+.colors,
+.sizes {
+  display: flex;
+}
+
+.color {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.3em;
+  background-color: var(--black);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.color:last-child {
+  background-color: blue;
+}
+
+.size {
+  padding: 0.3em 1.2em;
+  margin: 0.6em;
+  font-size: 1.2rem;
+  border: 1px solid var(--black);
+  cursor: pointer;
+}
+
+.product-btn {
+  float: right;
+  padding: 0.6em 1.2em;
+  transition: 0.2s ease-in-out;
+  color: var(--white);
+  background-color: var(--black);
+  font-weight: 600;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.product-btn:hover {
+  color: var(--black);
+  background-color: var(--light-graygray);
+}
