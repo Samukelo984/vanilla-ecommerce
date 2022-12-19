@@ -15,6 +15,10 @@
   --green: #008000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* NAV */
 .navbar {
   padding: 1.2em 3.2em;
@@ -271,4 +275,89 @@
 .product-btn:hover {
   color: var(--black);
   background-color: var(--light-gray);
+}
+
+/* PAYMENT MODAL */
+.payment {
+  width: 31.2rem;
+  height: max-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1em 3.2em;
+  margin: auto;
+  display: none;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.payment h1 {
+  font-size: 1.2rem;
+  color: var(--gray);
+}
+
+.payment label {
+  margin-top: 1.2em;
+  margin-bottom: 0.8em;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.pay-input {
+  padding: 0.6em;
+  margin: 0.6em 0em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--gray);
+}
+
+.card-icons {
+  display: flex;
+}
+
+.card-icons img {
+  width: 2.6rem;
+  margin-right: 0.6em;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sm {
+  width: 30%;
+}
+
+.checkout-btn {
+  padding: 0.4em 1em;
+  margin-top: 1em;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.2rem;
+  color: var(--white);
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.close {
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  background-color: var(--black);
+  cursor: pointer;
 }
