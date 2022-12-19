@@ -245,7 +245,7 @@
 }
 
 .color:last-child {
-  background-color: blue;
+  background-color: darkblue;
 }
 
 .size {
@@ -270,5 +270,5 @@
 
 .product-btn:hover {
   color: var(--black);
-  background-color: var(--light-graygray);
+  background-color: var(--light-gray);
 }
