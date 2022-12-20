@@ -361,3 +361,121 @@ html {
   background-color: var(--black);
   cursor: pointer;
 }
+
+/* GALLERY */
+.gallery {
+  padding: 3em;
+  display: flex;
+}
+
+.gallery-item {
+  padding: 3em;
+  flex: 1;
+}
+
+.gallery-item figcaption {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+/* NEW SEASON */
+.new-season {
+  display: flex;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.new-season figure {
+  flex: 1;
+}
+
+.season-titles {
+  padding: 0.6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.season-btn {
+  padding: 0.8em;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.new-season img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+}
+
+.ftr-left {
+  flex: 2;
+  padding: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ftr-nav h1 {
+  font-size: 1rem;
+}
+
+.ftr-nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.ftr-nav li {
+  margin-bottom: 0.6em;
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.ftr-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-info input {
+  padding: 0.3em;
+  outline: none;
+}
+
+.right-info button {
+  padding: 0.4em;
+  color: var(--white);
+  background-color: var(--black);
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.ftr-icons {
+  display: flex;
+}
+
+.ftr-icon {
+  width: 1.2rem;
+  height: auto;
+  margin-right: 0.6em;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  font-weight: 400;
+}

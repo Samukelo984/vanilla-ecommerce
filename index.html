@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
     <script src="./app.js" async></script>
     <title>Vanilla eCommerce</title>
   </head>
   <body>
-    <header class="navbar">
+    <header class="navbar" id="nav">
       <img src="./assets//sneakers.png" alt="logo" class="nav-logo" />
       <article class="search-input">
         <input type="text" placeholder="Search..." />
@@ -142,6 +143,106 @@
         <button class="checkout-btn">Checkout</button>
         <span class="close">X</span>
       </section>
+
+      <section class="gallery">
+        <figure class="gallery-item">
+          <figcaption>Be Yourself!</figcaption>
+          <img
+            src="./assets/gallery1.jpeg"
+            alt="gallery-img"
+            class="gallery-img"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="./assets/gallery2.webp"
+            alt="gallery-img"
+            class="gallery-img"
+          />
+          <figcaption>This is the First Day of your New Life</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <figcaption>Just Be You!</figcaption>
+          <img
+            src="./assets/gallery3.jpeg"
+            alt="gallery-img"
+            class="gallery-img"
+          />
+        </figure>
+      </section>
+      <section class="new-season">
+        <figure>
+          <img src="./assets/newssn.jpeg" alt="new-season" />
+        </figure>
+        <aside class="season-titles">
+          <h3>NEW WINTER ARRIVALS</h3>
+          <h1>New Season</h1>
+          <h1>New Collection</h1>
+          <a href="#nav">
+            <button class="season-btn">CHOOSE YOUR STYLE</button>
+          </a>
+        </aside>
+        <figure>
+          <img src="./assets/newssn2.webp" alt="new-season" />
+        </figure>
+      </section>
     </main>
+    <footer>
+      <section class="ftr-left">
+        <nav class="ftr-nav">
+          <h1>About Us</h1>
+          <ul>
+            <li>Company</li>
+            <li>Contact</li>
+            <li>Careers</li>
+            <li>Affiliates</li>
+            <li>Stores</li>
+          </ul>
+        </nav>
+        <nav class="ftr-nav">
+          <h1>Useful Links</h1>
+          <ul>
+            <li>Support</li>
+            <li>Refund</li>
+            <li>FAQ</li>
+            <li>Feedback</li>
+            <li>Stories</li>
+          </ul>
+        </nav>
+        <nav class="ftr-nav">
+          <h1>Products</h1>
+          <ul>
+            <li>Air Max</li>
+            <li>Air Jordan</li>
+            <li>Blazer</li>
+            <li>Crater</li>
+            <li>Hippie</li>
+          </ul>
+        </nav>
+      </section>
+      <section class="ftr-right">
+        <article class="right-info">
+          <h1>Subscribe to our newsletter</h1>
+          <aside>
+            <input type="text" placeholder="your@email.com" />
+            <button>Join</button>
+          </aside>
+        </article>
+        <article class="right-info">
+          <h1>Follow Us</h1>
+          <aside class="ftr-icons">
+            <img src="./assets/facebook.png" alt="facebook" class="ftr-icon" />
+            <img
+              src="./assets/instagram.png"
+              alt="instagram"
+              class="ftr-icon"
+            />
+            <img src="./assets/twitter.png" alt="twitter" class="ftr-icon" />
+            <img src="./assets/whatsapp.png" alt="whatsapp" class="ftr-icon" />
+          </aside>
+        </article>
+        <span class="copyright">@Mr Lu Dev. All rights reserved. 2022</span>
+      </section>
+    </footer>
   </body>
 </html>
